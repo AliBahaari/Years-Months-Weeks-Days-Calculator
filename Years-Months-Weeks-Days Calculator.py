@@ -10,7 +10,7 @@ if number.isnumeric():
 
 
 	# Begins Years
-	if number > 365:
+	if number >= 365:
 
 		years = number // 365
 		yearsRemainder = number % 365
@@ -27,7 +27,7 @@ if number.isnumeric():
 
 
 	# Begins Months
-	elif number < 360 and number > 30:
+	elif number < 365 and number >= 30:
 
 		months = number // 30
 		monthsRemainder = number % 30
@@ -41,7 +41,7 @@ if number.isnumeric():
 
 
 	# Begins Weeks
-	elif number < 30 and number > 7:
+	elif number < 30 and number >= 7:
 
 		weeks = number // 7
 		weeksRemainder = number % 7
