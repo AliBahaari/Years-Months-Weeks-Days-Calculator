@@ -1,4 +1,4 @@
-# Years-Months-Weeks-Days Calcelator
+# Years-Months-Weeks-Days Calculator
 
 A simple script for calculating years, months, weeks and days due to a number you enter.
 
